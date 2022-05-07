@@ -1,5 +1,5 @@
 # CNN_classifier-on-CIFAR-10
- #### A CNN based classifier on CIFAR-10 dataset.
+ #### A CNN based classifier on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz).
 
 ## The following are the code snippets to better understand the model
 
