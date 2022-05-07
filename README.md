@@ -1,5 +1,5 @@
 # CNN_classifier-on-CIFAR-10
- #### A CNN based classifier on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz).
+ #### A CNN based classifier on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 ## The following are the code snippets to better understand the model
 
@@ -30,6 +30,7 @@ model_one.evaluate(testing_data,test_Labels)
 ```
 model_one.predict(testing_data)
 ```
+##### The result is an array for each test photo which has probabilities for all the 10 classes and the one with the max probability is likely our target class
 ![Model Predicted Values](https://github.com/aryamanchoudhary123/CNN_classifier-on-CIFAR-10/blob/main/Images/predicted_values.png)
 
 
